@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editcanhb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Độ dài cạnh B"
+        app:layout_constraintBottom_toTopOf="@+id/btntinhchuvi"
+        app:layout_constraintTop_toBottomOf="@+id/editcanha"
+        app:layout_constraintVertical_bias="0.204"
+        tools:layout_editor_absoluteX="199dp" />
+
+    <TextView
+        android:id="@+id/daicanhb"
+        android:layout_width="81dp"
+        android:layout_height="30dp"
+        android:text="Dài cạnh B"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <Button
+        android:id="@+id/btntinhchuvi"
+        android:layout_width="127dp"
+        android:layout_height="38dp"
+        android:text="Tính chu vi"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <Button
+        android:id="@+id/btntinhdientich"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:text="Tính diện tích"
+        tools:layout_editor_absoluteX="196dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <TextView
+        android:id="@+id/chieucao"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:text="Chiều cao"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/daicanha"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:text="Dài cạnh A"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <EditText
+        android:id="@+id/editcao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nhập chiều cao"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="109dp" />
+
+    <EditText
+        android:id="@+id/editcanha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Độ dài cạnh A"
+        app:layout_constraintTop_toBottomOf="@+id/editcao"
+        tools:layout_editor_absoluteX="127dp" />
+
+    <TextView
+        android:id="@+id/kqua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="321dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
